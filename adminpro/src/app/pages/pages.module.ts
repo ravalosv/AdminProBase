@@ -4,6 +4,8 @@ import { RouterModule } from '@angular/router';
 
 import { FormsModule } from '@angular/forms';
 
+// import { ChartsModule } from 'ng2-charts';
+
 // Mis Modulos
 import { SharedModule } from '../share/shared.module';
 import { ComponentsModule } from '../components/components.module';
@@ -21,6 +23,7 @@ import { PagesComponent } from './pages.component';
     PagesComponent,
   ],
   imports: [
+    // ChartsModule,
     CommonModule,
     FormsModule,
     SharedModule,
